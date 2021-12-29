@@ -1,14 +1,15 @@
 import React from 'react'
 import styled from "styled-components"
 import Section from './Section'
-
+import ModelsImg from 'public/images/model-s.jpg'
+ 
 function Home() {
     return (
         <Container>
             <Section 
                 title = "Model S"
                 description = "Order Online for Touchless Delivery"
-                backgroundimage = "model-s.jpg"
+                backgroundimage = {ModelsImg}
                 leftButton = "Custom Order"
                 rightButton = "Existing Inventory"
             />
